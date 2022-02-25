@@ -48,6 +48,7 @@ jobs:
           haxelib install lime 7.9.0 --quiet
           haxelib install openfl --quiet
           haxelib install flixel 4.9.0 --quiet
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm --quiet
           haxelib install hxcpp --quiet
           haxelib run lime setup
           haxelib run lime config ANDROID_SDK $ANDROID_SDK_ROOT
@@ -64,7 +65,6 @@ jobs:
           haxelib git linc_luajit https://github.com/Daninnocent/linc_luajit.git --quiet
           haxelib git AndroidTools https://github.com/jigsaw-4277821/AndroidTools.git --quiet
           haxelib git extension-webview https://github.com/Daninnocent/extension-webview.git --quiet
-
           haxelib install actuate 
           haxelib list
           
